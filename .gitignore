@@ -1,0 +1,10 @@
+wheelhouse/
+build/
+dist/
+*.egg-info/
+**/*.pyd
+**/*.so
+**/*.c
+**/*.cpp
+.vscode/
+__pycache__/
