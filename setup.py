@@ -21,7 +21,7 @@ extensions = [
 
 setup(
     name="neuralRaven",
-    version="1.0.0",
+    version="1.1.0",
     ext_modules=cythonize(extensions, compiler_directives={"language_level": "3"}),
     packages=["neuralRaven"],
     package_data={
