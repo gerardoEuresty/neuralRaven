@@ -249,7 +249,7 @@ class Inputs:
 
         env.flag = any(v < 0 for v in patternsInput + patternsOutput)
 
-        self.neuralNetwork.start()
+        return self.neuralNetwork.start()
 
     def setGeneRange(self, geneRange):
         env.geneRange = geneRange

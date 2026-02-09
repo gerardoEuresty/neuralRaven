@@ -31,7 +31,8 @@ class IO():
 
     @classmethod
     def fromData(self, geneRange: float, populationSize: int, numMaxGenerations: int, allowedError: float, mutationProbability: float, networkLayers: list[int], patternsInput: list[float], patternsOutput: list[float]):
-        self.inputs.setData(geneRange, populationSize, numMaxGenerations, allowedError, mutationProbability, networkLayers, patternsInput, patternsOutput)
+        result = self.inputs.setData(geneRange, populationSize, numMaxGenerations, allowedError, mutationProbability, networkLayers, patternsInput, patternsOutput)
+        return result
 
     @classmethod
     def getRavenSolution(self):
